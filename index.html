@@ -10,36 +10,88 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
 </head>
 <body>
-   <div class='w-full flex flex-col items-center px-4'>
+   <div class='w-full flex flex-col items-center p-0'>
 
 
 <!-- Nav --------------- section -->
-    <div class="">
-        <h2 class="flex flex-row">NovaBid</h2>
+    <section class="flex flex-row bg-sky-400 text-white w-full justify-between items-center p-4">
 
-            <div class="">
-                <a href="#About-section" >About</a>
-                <a href="#Skills-section">Skills</a>
-                <a href="#Project-section">Project</a>
-                <a href="#Experience-section">Experience</a>
-                <a href="#MSG-section">Leave Message👍</a>
+    
+            <div class="flex justify-center items-center gap-8 text-lg">
 
-                <a  download="My Resume" href="assets/Professional Resume.pdf" class="bg-blue-500 text-white px-4 py-2 rounded-md ml-4">
-                    CV!
+                <a href="#About-section" 
+                class="text-black font-medium relative after:block after:h-[2px] after:w-0 after:bg-green-300 after:transition-all after:duration-300 hover:after:w-full" >About</a>
+                <a href="#Skills-section" 
+                class="text-black font-medium relative after:block after:h-[2px] after:w-0 after:bg-green-300 after:transition-all after:duration-300 hover:after:w-full ">Skills</a>
+                <a href="#Project-section" 
+                class="text-black font-medium relative after:block after:h-[2px] after:w-0 after:bg-green-300 after:transition-all after:duration-300 hover:after:w-full ">Project</a>
+                <a href="#Experience-section" 
+                class="text-black font-medium relative after:block after:h-[2px] after:w-0 after:bg-green-300 after:transition-all after:duration-300 hover:after:w-full ">Experience</a>
+                <a href="#MSG-section" 
+                class="text-black font-medium relative after:block after:h-[2px] after:w-0 after:bg-green-300 after:transition-all after:duration-300 hover:after:w-full">Leave Message</a>
+                <a  download="My Resume" 
+                    href="assets/Professional Resume.pdf" 
+                    class="text-black font-medium rounded-full px-4 py-2 hover:bg-green-200 focus:outline-2 focus:outline-offset-2 focus:outline-sky-50 active:bg-fuchsia-100">
+                        Resume
                 </a>
             </div>
-   </div>
+    </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 <!--About --------------- section -->
-
-    <div class="About-section">
-        <h1 class="">Hey, I'm Mehdi!</h1>
+<section class=" flex flex-col items-center mt-8 mb-8 bg-green-100 text-shadow-black">
+    <div class="About-section ">
+        <h1 class="text-3xl">Hey, I'm Mehdi!</h1>
     </div>
-    <div class="Img">
-        <img src="/assets/picofme.png"  alt="Mehdi's Photo" style="width:200px;height:200px;border-radius:50%;">
+    <div class="transition delay-150 duration-300 ease-in-out hover:-translate-y-1 hover:scale-110">
+        <img src="/assets/picofme.png" alt="Mehdi's Photo" class="w-99 h-99 rounded-full object-cover shadow-lg border-4 border-white">
     </div>
     <div class="Text">
-        <p>I'm Mehdi, a recent ENSET graduate who's incredibly excited about computer science and networking with a passion for web development and programming. 
+        <p class="text-center font-light text-shadow-black">I'm Mehdi, a recent ENSET graduate who's incredibly excited about computer science and networking with a passion for web development and programming. 
             I have experience in HTML, CSS, JavaScript, and Python. 
             I enjoy creating beautiful and functional websites and applications. 
             I am always eager to learn new technologies and improve my skills.
@@ -50,20 +102,21 @@
         </p>
         
     </div>
+</section>
 
 <!--Social Link --------------- section -->
 
     <div class="social-links">
-            <a href="https://www.instagram.com/mehhdii_i/" target="_blank">
+            <a href="https://www.instagram.com/mehhdii_i/" target="_blank" rel="noopener" title="Instagram Profile">
                 <i class="fa-brands fa-instagram"></i>
             </a>
-            <a href="https://x.com/mehdiii_i?s=21&t=7jhBvUM9bj9ZbLPmUkJQIQ" target="_blank">
+            <a href="https://x.com/mehdiii_i?s=21&t=7jhBvUM9bj9ZbLPmUkJQIQ" target="_blank" rel="noopener" title="X Profile">
                 <i class="fa-brands fa-x-twitter"></i>
             </a>
-            <a href="https://www.linkedin.com/in/bidoud-mehdi-a7928130a/" target="_blank">
+            <a href="https://www.linkedin.com/in/bidoud-mehdi-a7928130a/" target="_blank" rel="noopener" title="linkedin Profile">
                 <i class="fa-brands fa-linkedin"></i>
             </a>
-            <a href="https://github.com/MBidoud" target="_blank">
+            <a href="https://github.com/MBidoud" target="_blank" rel="noopener" title="github Profile">
                 <i class="fa-brands fa-github"></i>
             </a>
         </div>
@@ -74,36 +127,21 @@
         <section id="Skills-section">
             <h2 class="">Skills</h2>
                 <ul>
-                    <li>Figma</li>
-                        <i class="fa-brands fa-figma"></i>
-                    <li>HTML</li>
-                        <i class="fa-brands fa-html5"></i>
-                    <li>CSS</li>
-                        <i class="fa-brands fa-css3-alt"></i>
-                    <li>JavaScript</li>
-                        <i class="fa-brands fa-js"></i>
-                    <li>GitHub</li>
-                        <i class="fa-brands fa-github-alt"></i>
-                    <li>SQL</li>
-                        <i class="fa-solid fa-database"></i>
-                    <li>PHP</li>
-                        <i class="fa-brands fa-php"></i>
-                    <li>Java</li>
-                        <i class="fa-brands fa-java"></i>
-                    <li>Flutter</li>
-                        <i class="fa-brands fa-flutter"></i>
-                    <li>Server</li>
-                        <i class="fa-solid fa-server"></i>
-                    <li>Networking</li>
-                        <i class="fa-solid fa-network-wired"></i>
-                    <li>Linux</li>
-                        <i class="fa-brands fa-linux"></i>
-                    <li>Cloud Computing</li>
-                        <i class="fa-solid fa-cloud"></i>
-                    <li>Problem Solving</li>
-                        <i class="fa-solid fa-lightbulb"></i>
-                    <li>Teamwork</li>
-                        <i class="fa-solid fa-users"></i> 
+                    <li>Figma <i class="fa-brands fa-figma"></i></li>
+                    <li>HTML <i class="fa-brands fa-html5"></i></li>
+                    <li>CSS <i class="fa-brands fa-css3-alt"></i></li>
+                    <li>JavaScript <i class="fa-brands fa-js"></i></li>
+                    <li>GitHub <i class="fa-brands fa-github-alt"></i></li>
+                    <li>SQL <i class="fa-solid fa-database"></i></li>
+                    <li>PHP <i class="fa-brands fa-php"></i></li>
+                    <li>Java <i class="fa-brands fa-java"></i></li>
+                    <li>Flutter <i class="fa-brands fa-flutter"></i></li>
+                    <li>Server <i class="fa-solid fa-server"></i></li>
+                    <li>Networking <i class="fa-solid fa-network-wired"></i></li>
+                    <li>Linux <i class="fa-brands fa-linux"></i></li>
+                    <li>Cloud Computing <i class="fa-solid fa-cloud"></i></li>
+                    <li>Problem Solving <i class="fa-solid fa-lightbulb"></i></li>
+                    <li>Teamwork <i class="fa-solid fa-users"></i></li> 
                 </ul>
         </section>
     </div>
@@ -114,12 +152,18 @@
         <section id="Experience-section">
             <h2 class="">Experience</h2>
                 <ul>
-                    <li>Internship at Ooredoo (June 2023 - August 2023)</li>
+                    <li>
+                        Internship at Ooredoo (June 2023 - August 2023)
                         <p>Worked on network configuration and optimization, gaining hands-on experience with real-world networking scenarios.</p>
-                    <li>Freelance Web Developer (January 2022 - Present)</li>
+                    </li>
+                    <li>
+                        Freelance Web Developer (January 2022 - Present)
                         <p>Developed and maintained websites for small businesses and individuals, focusing on responsive design and user experience.</p>
-                    <li>Volunteer at Local Tech Community (March 2021 - December 2021)</li>
+                    </li>
+                    <li>
+                        Volunteer at Local Tech Community (March 2021 - December 2021)
                         <p>Assisted in organizing tech meetups and workshops, helping to foster a community of learning and collaboration.</p>
+                    </li>
                 </ul>
         </section>
     </div>
@@ -130,19 +174,31 @@
         <section id="Project-section">
             <h2 class="">Projects</h2>
                 <ul>
-                    <li>Portfolio Website</li>
+                    <li>
+                        Portfolio Website
                         <p>A personal portfolio website to showcase my projects and skills using HTML, CSS, and JavaScript.</p>
-                    <li>Books Store</li>
+                    </li>
+                    <li>
+                        Books Store
                         <p>An e-commerce website for selling books, built using HTML, CSS, and JavaScript.</p>
-                    <li>Consulting Management</li>
+                    </li>
+                    <li>
+                        Consulting Management
                         <p>A web application to manage a medical center using SpringBoot, Java, MySQL<!--base de donnees-->, 
                             and Maven<!--swagger pour doc API-maven(gestion des depandance)-->.</p>
-                    <li>Blog Platform</li>
+                    </li>
+                    <li>
+                        Blog Platform
                         <p>A blogging platform where users can create, edit, and delete blog posts using HTML, CSS, JavaScript, and SQL.</p>
-                    <li>Weather App</li>
+                    </li>
+                    <li>
+                        Weather App
                         <p>A weather application that fetches real-time weather data from an API using Flutter.</p>
-                    <li>Chat Application</li>
+                    </li>
+                    <li>
+                        Chat Application
                         <p>A real-time LLaMA-chat application using llama API ,Flutter.</p>
+                    </li>
                 </ul>
         </section>
     </div>
